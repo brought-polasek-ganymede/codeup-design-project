@@ -4,10 +4,8 @@
 
 body{
     background-color: var(--light-gray);
-}
-
-nav{
     font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
 }
 
 .top-nav{
@@ -29,6 +27,7 @@ nav{
 
 nav h1{
     height: 2em;
+    text-transform: lowercase;
 }
 
 nav li a{
@@ -38,6 +37,12 @@ nav li a{
 .main-title{
     font-family: 'Anton', sans-serif;
     font-size: 64px;
+}
+
+.sub-title{
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    margin: 2em 0 2em 0;
 }
 
 .design {
@@ -69,4 +74,20 @@ nav li a{
     position: relative;
     top: -.5em;
     font-size: 48px;
+}
+
+.project-buttons {
+    padding: 1em;
+    width: 35px;
+    height: 35px;
+    font-family: 'Anton', sans-serif;
+}
+
+.project-img{
+    border: 15px solid #E6E6E6;
+    border-radius: 10px;
+}
+button span{
+    position: relative;
+    top: -.7em;
 }
