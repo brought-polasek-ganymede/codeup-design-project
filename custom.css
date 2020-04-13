@@ -1,5 +1,9 @@
 :root{
     --light-gray: #f0f0f0;
+    --design: #E6563B;
+    --develop: #DEA03D;
+    --support: #7CB06C;
+    --host: #00ABA9;
 }
 
 body{
@@ -36,33 +40,33 @@ nav li a{
 
 .main-title{
     font-family: 'Anton', sans-serif;
-    font-size: 64px;
+    /*font-size: 64px;*/
 }
 
 .sub-title{
     font-family: 'Anton', sans-serif;
-    font-size: 48px;
+    /*font-size: 48px;*/
     margin: 2em 0 2em 0;
 }
 
 .design {
-    background-color: #E6563B;
+    background-color: var(--design);
 }
 
 .develop {
-    background-color: #DEA03D;
+    background-color: var(--develop);
 }
 
 .support {
-    background-color: #7CB06C;
+    background-color: var(--support);
 }
 
 .host {
-    background-color: #00ABA9;
+    background-color: var(--host);
 }
 
 .circle{
-    padding: 8em;
+    /*padding: 8em;*/
     width: 105px;
     height: 105px;
     border: 10px solid white;
@@ -72,8 +76,8 @@ nav li a{
 
 .circle h2{
     position: relative;
-    top: -.5em;
-    font-size: 48px;
+    top: 1.4em;
+    font-size: 20px;
 }
 
 .project-buttons {
@@ -91,3 +95,10 @@ button span{
     position: relative;
     top: -.7em;
 }
+
+/*<!--        SMALL SCREEN       -->*/
+@media (min-width: 576px) {
+
+
+}
+
