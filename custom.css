@@ -2,8 +2,12 @@
     --light-gray: #f0f0f0;
 }
 
-nav{
+body{
     background-color: var(--light-gray);
+}
+
+nav{
+    font-family: 'Abel', sans-serif;
 }
 
 .top-nav{
@@ -27,35 +31,42 @@ nav h1{
     height: 2em;
 }
 
+nav li a{
+    color: #000;
+}
+
+.main-title{
+    font-family: 'Anton', sans-serif;
+    font-size: 64px;
+}
+
 .design {
     background-color: #E6563B;
-    /*width: 50px;*/
-    /*height: 50px;*/
-
 }
 
 .develop {
     background-color: #DEA03D;
-    margin-left: auto;
 }
 
 .support {
     background-color: #7CB06C;
-
 }
 
 .host {
     background-color: #00ABA9;
-    margin-left: auto;
 }
 
-.button-row {
-    width: 8em;
-    height: 8em;
-
+.circle{
+    padding: 8em;
+    width: 105px;
+    height: 105px;
+    border: 10px solid white;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
 }
 
-span {
-    border-radius: 50%;
-    display: inline-block;
+.circle h2{
+    position: relative;
+    top: -.5em;
+    font-size: 48px;
 }
