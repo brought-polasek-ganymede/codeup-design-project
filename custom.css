@@ -10,8 +10,6 @@ body{
     background-color: var(--light-gray);
     font-family: 'Abel', sans-serif;
     text-transform: uppercase;
-
-
 }
 
 .top-nav{
@@ -98,10 +96,6 @@ nav li a{
     background-size: cover;
     width: 100%;
     height: 38vh;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-
 }
 
 
@@ -114,13 +108,6 @@ button span{
     position: relative;
     top: -.7em;
 }
-
-/*.man-card{*/
-/*    max-width: 100%;*/
-/*    height: 66.5vh;*/
-
-/*}*/
-
 
 /*      SMALL SCREEN      */
 @media screen and (min-width: 576px) {
@@ -191,12 +178,36 @@ button span{
         width: 10%;
     }
 
-    .nav-item-1{
-        width: 10%;
+    nav h1{
+        position: relative;
+        left: 3em;
+        top: -1.6em;
+        z-index: 1001;
+        width: 100%;
     }
 
-    .nav-item-2{
-    width: 10%;
+    .mobile-phone{
+        background-image: url("../codeup-design-project/img/mobile-phone.jpg");
+    }
+    .head{
+        background-image: url("../codeup-design-project/img/head.jpg");
+    }
+    .ipad{
+        background-image: url("../codeup-design-project/img/ipad.jpg");
     }
 
+    .article-img{
+        background-size: cover;
+        width: 30%;
+        height: 10vh;
+    }
+
+    article h5{
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+    }
+
+    i{
+        color: deepskyblue;
+    }
 }
