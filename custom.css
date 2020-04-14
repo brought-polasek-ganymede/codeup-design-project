@@ -40,12 +40,10 @@ nav li a{
 
 .main-title{
     font-family: 'Anton', sans-serif;
-    /*font-size: 64px;*/
 }
 
 .sub-title{
     font-family: 'Anton', sans-serif;
-    /*font-size: 48px;*/
     margin: 2em 0 2em 0;
 }
 
@@ -66,7 +64,6 @@ nav li a{
 }
 
 .circle{
-    /*padding: 8em;*/
     width: 105px;
     height: 105px;
     border: 10px solid white;
@@ -80,6 +77,10 @@ nav li a{
     font-size: 20px;
 }
 
+.featured-projects h3{
+    font-size: 1.2em;
+}
+
 .project-buttons {
     padding: 1em;
     width: 35px;
@@ -91,14 +92,57 @@ nav li a{
     border: 15px solid #E6E6E6;
     border-radius: 10px;
 }
+
 button span{
     position: relative;
     top: -.7em;
 }
 
-/*<!--        SMALL SCREEN       -->*/
-@media (min-width: 576px) {
-
-
+.man-card{
+    /*width: 334.5px;*/
+    /*height: 226px;*/
 }
 
+
+/*      SMALL SCREEN      */
+@media screen and (min-width: 576px) {
+    /* Nav small screen */
+    nav ul{
+        width: 100%;
+        height: 0;
+    }
+
+    .nav-item{
+        width: 15%;
+        position: relative;
+        top: -2.5em;
+        z-index: 1000;
+    }
+
+    .nav-item-1{
+        width:20%;
+    }
+
+    .nav-item-2{
+        width: 20%;
+    }
+
+    /*    Featured projects small screen*/
+    .project-img{
+        border: 5px solid #E6E6E6;
+        border-radius: 5px;
+    }
+
+    .featured-projects h3{
+        font-size: .7em;
+    }
+
+    .featured-projects button{
+        transform: scale(.6);
+    }
+
+    button span{
+        font-size: 1em;
+    }
+
+}
