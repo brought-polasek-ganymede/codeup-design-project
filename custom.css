@@ -10,6 +10,8 @@ body{
     background-color: var(--light-gray);
     font-family: 'Abel', sans-serif;
     text-transform: uppercase;
+
+
 }
 
 .top-nav{
@@ -28,6 +30,8 @@ body{
     z-index: 1000;
     background-color: #fff;
 }
+
+/*  FIX NAV */
 
 nav h1{
     height: 2em;
@@ -91,17 +95,31 @@ nav li a{
 .project-img{
     border: 15px solid #E6E6E6;
     border-radius: 10px;
+    background-size: cover;
+    width: 100%;
+    height: 38vh;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
 }
+
+
+.apple-ipad {
+    background-image: url("../codeup-design-project/img/apple-ipad.jpg");
+}
+
 
 button span{
     position: relative;
     top: -.7em;
 }
 
-.man-card{
-    /*width: 334.5px;*/
-    /*height: 226px;*/
-}
+/*.man-card{*/
+/*    max-width: 100%;*/
+/*    height: 66.5vh;*/
+
+/*}*/
 
 
 /*      SMALL SCREEN      */
@@ -131,6 +149,25 @@ button span{
     .project-img{
         border: 5px solid #E6E6E6;
         border-radius: 5px;
+        background-size: cover;
+        width: 100%;
+        height: 36vh;
+    }
+
+    .apple-ipad {
+        background-image: url("../codeup-design-project/img/apple-ipad.jpg");
+    }
+
+    .mac-book {
+        background-image: url("../codeup-design-project/img/macbook.jpg");
+    }
+
+    .man-card {
+        background-image: url("../codeup-design-project/img/man.jpg");
+    }
+
+    .security {
+        background-image: url("../codeup-design-project/img/security.jpg");
     }
 
     .featured-projects h3{
@@ -143,6 +180,23 @@ button span{
 
     button span{
         font-size: 1em;
+    }
+
+}
+
+/*      MEDIUM SCREEN      */
+@media screen and (min-width: 768px) {
+
+    .nav-item {
+        width: 10%;
+    }
+
+    .nav-item-1{
+        width: 10%;
+    }
+
+    .nav-item-2{
+    width: 10%;
     }
 
 }
