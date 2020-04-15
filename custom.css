@@ -70,22 +70,6 @@ nav li a{
     border: 10px solid white;
 }
 
-.red {
-    background-image: url("../codeup-design-project/img/circle-red.png");
-}
-
-.orange{
-    background-image: url("../codeup-design-project/img/circle-orange.png");
-}
-
-.lightgreen{
-    background-image: url("../codeup-design-project/img/circle-lightgreen.png");
-}
-
-.teal{
-    background-image: url("../codeup-design-project/img/circle-teal.png");
-}
-
 /*.circle{*/
 /*    width: 105px;*/
 /*    height: 105px;*/
@@ -100,6 +84,22 @@ nav li a{
     font-size: 20px;
     font-family: 'Anton', sans-serif;
     color: #fff;
+}
+
+.red {
+    background-image: url("../codeup-design-project/img/circle-red.png");
+}
+
+.orange{
+    background-image: url("../codeup-design-project/img/circle-orange.png");
+}
+
+.lightgreen{
+    background-image: url("../codeup-design-project/img/circle-lightgreen.png");
+}
+
+.teal{
+    background-image: url("../codeup-design-project/img/circle-teal.png");
 }
 
 .featured-projects h3{
@@ -167,7 +167,7 @@ button span{
         border-radius: 5px;
         background-size: cover;
         width: 100%;
-        height: 36vh;
+        height: 36vh; /* change to vw 36vh*/
     }
 
     .apple-ipad {
